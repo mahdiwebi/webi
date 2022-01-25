@@ -1,0 +1,26 @@
+#Tech-slider {
+    width: 70%;
+    align-items: center;
+    margin-top:50px;
+}
+
+.Tech-box {
+    margin-left:50px;
+}
+
+
+
+@media screen and (max-width: 500px)  {
+
+
+    #Tech-slider {
+        width: 85%;
+        align-items: center;
+        margin-top:50px;
+    }
+   
+    .Tech-box {
+        margin-left:0px;
+    }
+     
+   }

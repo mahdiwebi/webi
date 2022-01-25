@@ -1,0 +1,80 @@
+.vision-container {
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10em;
+
+}
+.vision-card {
+  
+  justify-content: center;
+  color: var( --main-color-3 );
+  background-color: var(--main-color-2);
+  margin: 30px 30px;
+  
+  text-align: start;
+  height: 250px;
+  width: 250px;
+  padding: 30px 20px;
+  border-radius: 30px;
+}
+
+.vision-card .title {
+  margin: 30px 0 30px;
+  font-weight: 600;
+  
+}
+.vision-card .description {
+ 
+}
+
+.vision-line {
+    border-bottom: 2px solid var(--main-color);
+    width: 20%;
+    margin-top: 10px; 
+}
+.lightbulb {
+  display: flex;
+  background-image: url("../../assets/Asset\ 5.svg");
+  height: 35px;
+  width: 35px;
+  background-repeat: no-repeat;
+  background-position: center;
+ 
+}
+.paper-plane {
+  display: flex;
+
+  background-image: url("../../assets/Asset\ 4.svg");
+  
+  height: 35px;
+  width: 35px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+@media screen and (max-width: 500px) {
+.vision-container {
+/*  display: flex;
+  align-items: center;
+  margin-top: 15em;
+  
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;*/
+  margin-top: 10em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  
+}
+
+.vision-card {
+  margin:30px 0 0 0;
+} 
+  
+}

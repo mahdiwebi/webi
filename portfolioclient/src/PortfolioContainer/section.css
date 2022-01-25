@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 150px;
+  flex-flow: wrap;
+  min-height: fit-content;
+  color: #1ef2f1;
+  margin-right: 90px;
+}
+
+@media screen and (max-width:500px) {
+  .footer {
+    margin-left:-1em;
+  }
+}

@@ -1,0 +1,179 @@
+.works-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+
+
+  
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  
+}
+
+.portfolio-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+}
+
+.portfolio-details-title {
+  font-weight: 600;
+}
+
+.portfolio-details-text{
+ width: 550px;
+}
+
+.portfolio-details-underline {
+  border-bottom: 2px solid #1ef2f1;
+  width: 10%;
+  margin-top: 3px;
+  padding-right: 60px;
+  margin-bottom: 30px;
+
+}
+
+
+.button-works {
+  font-size: 1em;
+  line-height: normal;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-weight:600;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out, color 0.2s 0.3s;
+  letter-spacing: 0;
+  border-radius: 45px;
+  height: auto;
+  padding: .8em 2.1em;
+  background-color: var(--main-color-4);
+  width: 10rem;
+  margin-top: 50px;
+  text-align: center;
+  border: 2px solid var(--main-color);
+}
+
+.button-works:hover {
+  background-color: var(--main-color);
+}
+
+
+
+.portfolio-sample {
+  margin-left: 50px;
+
+  /*background-image: url("../../assets/Image 1.png");*/
+}
+
+.portfolio-sample img{
+
+  height: 300px;
+  width: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  background-size: cover;
+ 
+  
+  
+}
+
+.works-button-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.works-button {
+  font-size: 1em;
+  line-height: normal;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-weight:600;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out, color 0.2s 0.3s;
+  letter-spacing: 0;
+  border-radius: 45px;
+  height: auto;
+  padding: .8em 2.1em;
+  background-color: var(--main-color);
+  width: 10rem;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.works-button:hover {
+  cursor: pointer;
+padding: .8em 2.7em;
+}
+
+
+
+
+.underline {
+  border-bottom: 2px solid #1ef2f1;
+  width: 20%;
+  margin-left: 65px;
+
+  margin-bottom: 60px;
+}
+
+
+@media screen and (max-width:500px){
+
+  .portfolio {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 20px;
+   
+    align-items: center;
+  }
+
+  .portfolio-details {
+
+    margin: 0;
+
+  }
+
+
+  .portfolio-details-text{
+    width: 320px;
+    font-size: 15px;
+   }
+   
+
+
+  .portfolio-sample {
+    margin: 0;
+    padding: 0;
+  margin-bottom: 25px;
+  }
+
+
+  .portfolio-sample img{
+    display: flex;
+    height: 220px;
+    width: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    background-size: cover;
+   
+    
+    
+  }
+
+  
+
+
+
+
+ 
+}

@@ -1,0 +1,40 @@
+.horizontal {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   justify-items: center;
+   align-items: flex-start;
+   margin-right: 38em;
+   margin-left: 2em;
+}
+.m {
+    display: flex;
+
+  background-image: url("../../assets/w.png");
+  background-size: contain;
+  height: 50px;
+  width: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  position: relative;
+
+}
+.w {
+    display: flex;
+
+  background-image: url("../../assets/m.png");
+  background-size: contain;
+  height: 50px;
+  width: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  position: relative;
+}
+@media screen and (max-width:500px){
+    .horizontal {
+   margin-left: 0.5em;
+   margin-right: -10em;
+}
+}
