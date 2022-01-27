@@ -49,7 +49,9 @@ export default function Contact() {
 
           <div className='contact-details-location'>
           <div className="position"></div>
-          <div className='heading5'>Tunisia</div>
+          <a href='https://www.google.fr/maps/place/R%C3%A9sidence+Kmar/@34.7770193,10.7773706,3a,121.5y,90t/data=!3m8!1e2!3m6!1sAF1QipPgWLnS49NKIy8mKPI2VqbystfHTFiaQk9Zg4fo!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPgWLnS49NKIy8mKPI2VqbystfHTFiaQk9Zg4fo%3Dw117-h86-k-no!7i720!8i529!4m5!3m4!1s0x1301d38c8f1ec0db:0xc04b87f5d9fd9ae1!8m2!3d34.7769981!4d10.7774311'>
+              <div className='heading5'>Tunisia-Sfax</div>
+          </a>
           </div>
         
         </div>
