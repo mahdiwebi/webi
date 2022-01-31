@@ -78,6 +78,7 @@
   background-position: center;
   align-items: center;
   background-size: cover;
+  border-radius: 10px;
  
   
   
@@ -125,7 +126,69 @@ padding: .8em 2.7em;
 }
 
 
-@media screen and (max-width:500px){
+@media screen and (max-width:768px){
+
+  .portfolio {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 20px;  
+    
+   
+    align-items: center;
+  }
+
+  .portfolio-details {
+    
+    margin: 0;
+    margin-bottom:40px ;
+
+  }
+
+
+  .portfolio-details-text{
+    width: 520px;
+    font-size: 15px;
+   }
+   
+
+
+  .portfolio-sample {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 25px;  
+    
+  }
+
+
+  .portfolio-sample img{
+    display: flex;
+    height: 330px;
+    width:525px;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    background-size: cover;
+    
+   
+    
+    
+  }
+
+  
+
+
+
+
+ 
+}
+
+
+
+
+
+
+@media screen and (max-width:480px){
 
   .portfolio {
     display: flex;

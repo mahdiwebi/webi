@@ -8,7 +8,7 @@ export default class PartnersSlider extends Component {
     var settings = {
       dots: true,
       infinite: false,
-      speed: 2000,
+      speed: 1000,
       slidesToShow: 5,
       slidesToScroll: 5,
       initialSlide: 0,
@@ -23,7 +23,7 @@ export default class PartnersSlider extends Component {
           }
         },
         {
-          breakpoint: 800,
+          breakpoint: 768,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 2,
@@ -31,7 +31,7 @@ export default class PartnersSlider extends Component {
           }
         },
         {
-          breakpoint: 500,
+          breakpoint: 480,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1
@@ -50,27 +50,28 @@ export default class PartnersSlider extends Component {
           <div>
     
             
-          <img src="./images/clients/brand1.png"></img>
-          </div>
-          <div>
-            
           <img src="./images/clients/brand2.png"></img>
           </div>
           <div>
+            
           <img src="./images/clients/brand3.png"></img>
           </div>
           <div>
-          <img src="./images/clients/brand1.png"></img>
+          <img src="./images/clients/brand4.png"></img>
           </div>
           <div>
-          <img src="./images/clients/brand1.png"></img>
+          <img src="./images/clients/brand5.png"></img>
           </div>
-          <div>
+          {/* <div>
           <img src="./images/clients/brand1.png"></img>
-          </div>
-          <div>
+          </div>*/}
+          
+         {/* <div>
           <img src="./images/clients/brand1.png"></img>
-          </div>
+          </div>*/}
+          {/* <div>
+          <img src="./images/clients/brand1.png"></img>
+          </div>*/}
         </Slider>
       </div>
     );

@@ -9,7 +9,7 @@ export default function Home() {
     
     <section className="Home-container" id="home">
 
-      <div className="home-picture-mobile"></div>
+      <div className="home-picture-mobile"><img src='./images/my_picture.png' ></img></div>
 
 
       <div className='Home-details'> 

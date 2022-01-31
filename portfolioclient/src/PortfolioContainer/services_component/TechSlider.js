@@ -35,8 +35,8 @@ export default class TechSlider extends Component {
         {
           breakpoint: 500,
           settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
+            slidesToShow: 3,
+            slidesToScroll: 3
           }
         }
       ]

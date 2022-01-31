@@ -48,7 +48,36 @@ font-weight: 600;
   
 }
 
-@media screen and (max-width: 500px){
+
+@media screen and (max-width: 768px){
+
+
+  .services-cards {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .services-card {
+    padding: 40px 40px;
+  justify-content: center;
+  color: var(--main-color-3);
+  background-color: var(--main-color-4);
+  margin: 30px;
+  border: 2px solid var(--main-color);
+  text-align: start;
+  height: 240px;
+  width: 240px;
+  padding: 30px 20px;
+  border-radius: 30px;
+  }
+
+  
+}
+
+
+@media screen and (max-width: 480px){
 
 
   .services-cards {

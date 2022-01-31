@@ -9,7 +9,7 @@ export default class ReviewsSlider extends Component {
     var settings = {
       dots: true,
       infinite: false,
-      speed: 2000,
+      speed: 1000,
       slidesToShow: 4,
       slidesToScroll: 4,
       initialSlide: 0,
@@ -24,7 +24,7 @@ export default class ReviewsSlider extends Component {
           }
         },
         {
-          breakpoint: 800,
+          breakpoint: 768,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 2,
@@ -32,7 +32,7 @@ export default class ReviewsSlider extends Component {
           }
         },
         {
-          breakpoint: 500,
+          breakpoint: 480,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1
@@ -46,55 +46,35 @@ export default class ReviewsSlider extends Component {
         <Slider {...settings}>
           <div>
            
-<Testimonialtemplate 
-        Clientname="Tech Pro"
+          <Testimonialtemplate 
+        Clientname="Ewald"
         Clientbrand="Showtag.tv"
+        Clientreview="nice work "/> 
+          </div>
+          <div>
+            
+<Testimonialtemplate 
+        Clientname="Jeffrey Kelly"
+        Clientbrand="AssetLab Marketing"
         Clientreview=" Timely good quality Wordpress Work"/> 
           </div>
           <div>
             
 <Testimonialtemplate 
-        Clientname="Tech Pro"
-        Clientbrand="Showtag.tv"
-        Clientreview=" Timely good quality Wordpress Work"/> 
-          </div>
-          <div>
-            
-<Testimonialtemplate 
-        Clientname="Tech Pro"
-        Clientbrand="Showtag.tv"
-        Clientreview=" Timely good quality Wordpress Work"/> 
+        Clientname="Kevin"
+        Clientbrand=" 24/7 Tech Inc"
+        Clientreview=" Mahdi work very well with specific directions"/> 
           </div>
           <div>
           <Testimonialtemplate 
-        Clientname="Tech Pro"
-        Clientbrand="Showtag.tv"
-        Clientreview=" Timely good quality Wordpress Work"/> 
+        Clientname="Jean"
+        Clientbrand="bikelio"
+        Clientreview=" Again Mahdi did a nice job - Looking froward to work again together."/> 
           </div>
-          <div>
-          <Testimonialtemplate 
-        Clientname="Tech Pro"
-        Clientbrand="Showtag.tv"
-        Clientreview=" Timely good quality Wordpress Work"/> 
-          </div>
-          <div>
-          <Testimonialtemplate 
-        Clientname="Tech Pro"
-        Clientbrand="Showtag.tv"
-        Clientreview=" Timely good quality Wordpress Work"/> 
-          </div>
-          <div>
-          <Testimonialtemplate 
-        Clientname="Tech Pro"
-        Clientbrand="Showtag.tv"
-        Clientreview=" Timely good quality Wordpress Work"/> 
-          </div>
-          <div>
-          <Testimonialtemplate 
-        Clientname="Tech Pro"
-        Clientbrand="Showtag.tv"
-        Clientreview=" Timely good quality Wordpress Work"/> 
-          </div>
+         
+          
+          
+          
         </Slider>
       </div>
     );

@@ -19,10 +19,12 @@ export default function Navbar() {
   }, [])
   return (
     <div className="navbar-container" id="navbar">
+   <div className="logo" ><img src='./images/webi.png'></img></div>
 
+     
 
-      <nav>
-        {(showMenu || desktopScreen > 500) && (
+      <div className='navigation'>
+        {(showMenu || desktopScreen > 780) && (
           <ul className="list">
             <a href="#home">
               <li className="items">Home</li>
@@ -49,7 +51,9 @@ export default function Navbar() {
           <span className="bar"></span>
           <span className="bar"></span>
         </a>
-      </nav>
+      </div>
+
+
     </div>
   )
 }

@@ -10,10 +10,13 @@ body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
+  background-color: rgb(6, 6, 6);
   color: white;
   
 }
+
+
+
 #root {
   height: 100vh;
 }

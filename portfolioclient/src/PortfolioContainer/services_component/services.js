@@ -17,8 +17,7 @@ export default function Sc() {
         <div className='services-card-title'>UI design</div>
         <div className="services-card-ligne "></div>
         <div className="services-card-text heading5">
-        We develop web applications from landing pages to fully
-        E-commerce websites      
+        We Design a great experience for your users on the web and mobile platforms
         </div>
 
         </div>
@@ -32,8 +31,7 @@ export default function Sc() {
           <div className='services-card-title'>Front-end development</div>
           <div className="services-card-ligne "></div>
           <div className="services-card-text heading5">
-          We develop web applications from landing pages to fully
-                  E-commerce websites     
+          we have experience in building complex, innovative, responsive, and user-centric solutions.   
           </div>
   
           </div>
@@ -45,8 +43,8 @@ export default function Sc() {
           <div className='services-card-title'>Back-end development</div>
           <div className="services-card-ligne "></div>
           <div className="services-card-text heading5">
-          We develop web applications from landing pages to fully
-                  E-commerce websites     
+          We develop backend server-side logic that powers websites and apps 
+                      
           </div>
   
           </div>
