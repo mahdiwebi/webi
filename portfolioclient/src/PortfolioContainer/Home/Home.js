@@ -17,14 +17,16 @@ export default function Home() {
       
       <div className="Home-details-text">
 
-          <span className='text-animate'>I'm Mahdi web</span>  
+          <span className='text-animate'>Mahdi web</span>  
          
-         <span className="txt-type text-animate1" data-wait="3000" data-words='["Developer" , "Designer" , "creator"]' ></span>
+         <span><span className="txt-type" data-wait="3000" data-words='["Developer" , "Designer"]' ></span></span>
        
+         <p className='bio heading5'>WordPress & Js developer, passionate about innovation and building web apps that make people life easier 
+</p>
           </div>
 
-          <a className="button-CTA" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=mahdi.kaaniche1998@gmail.com">Resume<i class="fa fa-download" aria-hidden="true"></i></a>
-
+          <a className="button-CTA" href="./Mahdi webi Resume.pdf">Resume<i class="fa fa-download" aria-hidden="true"></i></a>
+          
 
       </div>
 

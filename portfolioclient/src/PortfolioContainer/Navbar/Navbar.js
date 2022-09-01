@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './Navbar.css'
+import { Link } from 'react-router-dom'
 
 
 export default function Navbar() {
@@ -19,7 +20,7 @@ export default function Navbar() {
   }, [])
   return (
     <div className="navbar-container" id="navbar">
-   <div className="logo" ><img src='./images/webi.png'></img></div>
+   <div className="logo" ><Link to='/'> <img src='./images/webi.png'></img></Link></div>
 
      
 
@@ -29,15 +30,15 @@ export default function Navbar() {
             <a href="#home">
               <li className="items">Home</li>
             </a>
-            <a href="#sc">
+            <a href="#Services">
               <li className="items"> Services</li>
             </a>
-            <a href="#works">
-              <li className="items" href="#works">
-                Works
+            <a >
+              <li className="items">
+              <Link to="allworks"> works</Link>
               </li>
             </a>
-            <a href="#testimonials">
+            <a href="#Testimonials">
               <li className="items">Testimonials</li>
             </a>
             <a href="#contact">

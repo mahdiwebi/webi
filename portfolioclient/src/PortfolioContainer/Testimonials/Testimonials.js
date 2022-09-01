@@ -7,7 +7,7 @@ export default function Testimonials() {
   return (
 
 
-    <section className="testimonials-container" id="testimonials">
+    <section className="testimonials-container" >
 
 
       

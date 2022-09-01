@@ -41,16 +41,10 @@ export default class ReviewsSlider extends Component {
       ]
     };
     return (
-      <div id="review-sliders">
+      <div id="review-sliders" >
         
         <Slider {...settings}>
-          <div>
-           
-          <Testimonialtemplate 
-        Clientname="Ewald"
-        Clientbrand="Showtag.tv"
-        Clientreview="nice work "/> 
-          </div>
+         
           <div>
             
 <Testimonialtemplate 

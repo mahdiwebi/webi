@@ -3,7 +3,7 @@ import './services.css'
 
 export default function Sc() {
   return (
-    <section className="services-container" id='sc'>
+    <section className="services-container" >
 
 
 

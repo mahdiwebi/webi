@@ -27,7 +27,10 @@
 
 .portfolio-details-text{
  width: 550px;
+ height: 120px;
 }
+
+
 
 .portfolio-details-underline {
   border-bottom: 2px solid #1ef2f1;
@@ -147,11 +150,13 @@ padding: .8em 2.7em;
 
 
   .portfolio-details-text{
-    width: 520px;
+    width: 500px;
     font-size: 15px;
+    height: 120px;
    }
    
 
+   
 
   .portfolio-sample {
     margin: 0;
@@ -195,13 +200,91 @@ padding: .8em 2.7em;
     flex-direction: column;
     margin-top: 50px;
     margin-left: 20px;
-   
+
     align-items: center;
   }
 
   .portfolio-details {
 
     margin: 0;
+
+  }
+
+
+  .portfolio-details-text{
+    width: 320px;
+    font-size: 15px;
+
+
+   }
+   
+
+
+  .portfolio-sample {
+    margin: 0;
+    padding: 0;
+  margin-bottom: 25px;
+  }
+
+
+  .portfolio-sample img{
+    display: flex;
+    height: 220px;
+    width: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    background-size: cover;
+   
+    
+    
+  }
+
+  
+
+  .button-works {
+    font-size: 0.9em;
+    line-height: normal;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight:600;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out, color 0.2s 0.3s;
+    letter-spacing: 0;
+    border-radius: 45px;
+    height: auto;
+    padding: .8em 1.5em;
+    background-color: var(--main-color-4);
+    width: 10rem;
+    margin-top: 50px;
+    text-align: center;
+    border: 2px solid var(--main-color);
+  }
+  
+
+
+ 
+}
+
+
+
+
+
+
+@media screen and (max-width:380px){
+
+  .portfolio {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 20px;
+   
+    align-items: center;
+  }
+
+  .portfolio-details {
+
+    margin-left: 20px;
 
   }
 
@@ -222,12 +305,13 @@ padding: .8em 2.7em;
 
   .portfolio-sample img{
     display: flex;
-    height: 220px;
-    width: 350px;
+    height: 187px;
+    width: 297px;
     background-repeat: no-repeat;
     background-position: center;
     align-items: center;
     background-size: cover;
+    margin-left: 10px;
    
     
     

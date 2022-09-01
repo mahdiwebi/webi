@@ -49,7 +49,7 @@ const typerWriter = function( textElemnt , words , wait =500) {
     
     
     //insert text into element 
-    this.textElemnt.innerHTML = `<span class="txt"> ${this.txt} </span>`;
+    this.textElemnt.innerHTML = `<span class="text-animate"> ${this.txt} </span>`;
     
     
     

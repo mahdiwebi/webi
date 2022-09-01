@@ -5,13 +5,13 @@ export default function Contact() {
     <section className="contact-container" id='contact'>
 
       <div className='contact-title heading2'>
-      Do you have any <br></br>project in your mind
+      Do you have any <br></br>project in your mind ?
 
       </div>
 
 
       
-      <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=mahdi.kaaniche1998@gmail.com" className='contact-button'>
+      <a href="mailto:contact@mahdiwebi.com" className='contact-button'>
     
       Get in touch
       </a>
@@ -24,10 +24,15 @@ export default function Contact() {
           <a href="https://www.instagram.com/mahdi_webi/">
             <div className="insta"></div>
           </a>
+
+          <a href="https://github.com/mahdiwebi">
+            <div className="github"></div>
+          </a>
+
           <a href="https://www.upwork.com/freelancers/~0142db5643926d7942?viewMode=1">
             <div className="upwork"></div>
           </a>
-          <a href="https://www.fiverr.com/mahdikaanich916?up_rollout=true">
+          <a href="https://www.fiverr.com/mahdikaanich916?">
             <div className="fiverr"></div>
           </a>
         </div>
@@ -44,7 +49,7 @@ export default function Contact() {
 
           <div className='contact-details-email'>
           <div className="email"></div>
-          <div className='heading5'>mahdi.kaaniche1998@gmail.com</div>
+          <div className='heading5'><a href="mailto:contact@mahdiwebi.com">contact@mahdiwebi.com</a></div>
           </div>
 
           <div className='contact-details-location'>

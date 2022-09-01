@@ -3,7 +3,7 @@ import './section.css'
 const Section = (props) => (
 
 
-<div className="section-heading">
+<div id={props.ID} className="section-heading">
         
           
         <div className="global-heading-title heading2"> {props.title} </div>

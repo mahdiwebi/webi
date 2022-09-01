@@ -37,15 +37,18 @@
 
 }
 
-.text-animate1 {
+.txt-type{
   font-size: 50px;
   display: block;
-  width: 250px;
   height: 50px;
   color: var(--main-color-3);
 
  }
 
+ .bio {
+   margin-top: 70px;
+   width: 350px;
+ }
 
  .button-CTA {
 
@@ -62,7 +65,7 @@
 		padding: .8em 2.1em;
     background-color: var(--main-color);
     width: 6rem;
-    margin-top: 100px;
+    margin-top: 30px;
     text-align: center;
 }
 
@@ -141,7 +144,7 @@
   
   
   .text-animate1 {
-    margin-left: 20px;
+
     font-size: 35px;
     text-align: center;
   
@@ -203,15 +206,24 @@
 }
 
 
-.text-animate1 {
-  margin-left: 60px;
+ .txt-type {
   font-size: 35px;
   text-align: center;
+  display: block;
 
  }
 
 
- 
+ .bio {
+  margin-top: 70px;
+  text-align: center;
+  width: fit-content;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+
 .text-animate {
   display: block;
   font-size: 35px;

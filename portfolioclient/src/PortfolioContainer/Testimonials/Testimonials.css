@@ -25,20 +25,23 @@
 }
 
 .client-photo {
-  
-  background-image: url("../../assets/my_picture.png");
+  /*
+  background-color: #eee;
+  border-radius: 50%;
   background-size: cover;
   height: 70px;
   width: 70px;
   background-repeat: no-repeat;
   background-position: center;
-
+*/
 }
 
 
 .client-name {
   font-weight: 400;
   margin-top: 10px;
+  FONT-WEIGHT: 200;
+    letter-spacing: 3px;
 }
 
 .client-brand {
@@ -80,9 +83,7 @@
 /*partners slider styling */
 
 
-
-
-@media screen and (max-width:500px) {
+@media screen and (max-width:380px) {
   
   .box {
 
@@ -98,9 +99,39 @@
   text-align: center;
   margin-left:5%;
   height: 300px;
-  width: 300px;
+  width: 230px;
   padding: 30px 20px;
   }
+  
+  
+
+
+
+}
+
+
+
+
+@media screen and (max-width:480px) {
+  
+  .box {
+
+   
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--main-color-3);
+  background-color: var( --main-color-4);
+  margin: 50px 5px; 
+ /*border: 2px solid var(--main-color);*/
+  text-align: center;
+  margin-left:5%;
+  height: 300px;
+  width: 250px;
+  padding: 30px 20px;
+  }
+  
   
 
 
